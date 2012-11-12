@@ -1,9 +1,9 @@
 
-N-gine for blogs. - Easy blog management -
+ngine blogging tool. - Easy blog management -
 
 ------------------------------------------------------------------------------------------------------------
 
-This project provides a basic structure for blogging as it comes with
+This project provides a basic structure for blogging as it comes with:
 	- rss
 	- Generates posts with unique link
 	- Main page (index.php) with 3 latest posts (this value is configurable) + list of all older posts
