@@ -26,21 +26,45 @@ include("top.php");
         	</div>
         	-->
 			<!-- END POST-->
-
-        	<!-- POST-->
+			
+			<!-- POST-->
         	<div class="post">
         		<div class="title">
-	        		<a href="showPost.php?postId=1" target="_blank">Post title</a>
+	        		<a href="showPost.php?postId=3" target="_blank">Post title FIVE</a>
         		</div>
         		<div class="time">
-        			<div class="time-day">23</div>
+        			<div class="time-day">25</div>
         			<div class="separator">-</div>
         			<div class="time-month">10</div>
         			<div class="separator">-</div>
         			<div class="time-year">2012</div>
         		</div>
         		<div class="entry">
-        			Hi, this is a test.
+        			Hi, this is the 5th test.
+					<br />        			
+        		</div>
+        		<div class="labels">
+        			TestLabel_1, TestLabel_2
+        		</div>
+        		<div class="share">
+        		</div>
+        	</div>
+        	<!-- END POST-->
+        	
+			<!-- POST-->
+        	<div class="post">
+        		<div class="title">
+	        		<a href="showPost.php?postId=4" target="_blank">Post title FOUR</a>
+        		</div>
+        		<div class="time">
+        			<div class="time-day">24</div>
+        			<div class="separator">-</div>
+        			<div class="time-month">10</div>
+        			<div class="separator">-</div>
+        			<div class="time-year">2012</div>
+        		</div>
+        		<div class="entry">
+        			Hi, this is the 4th test.
         			<br />
         			Let's see a sample video.
         			<br />
@@ -57,6 +81,78 @@ include("top.php");
         			Here it's some more sample text, and below an image.
         			<br />
         			<img src="images/myImage.jpg" alt ="this is a test image" />
+					<br />        			
+        		</div>
+        		<div class="labels">
+        			TestLabel_1, TestLabel_2
+        		</div>
+        		<div class="share">
+        		</div>
+        	</div>
+        	<!-- END POST-->
+        	
+			<!-- POST-->
+        	<div class="post">
+        		<div class="title">
+	        		<a href="showPost.php?postId=3" target="_blank">Post title THREE</a>
+        		</div>
+        		<div class="time">
+        			<div class="time-day">23</div>
+        			<div class="separator">-</div>
+        			<div class="time-month">10</div>
+        			<div class="separator">-</div>
+        			<div class="time-year">2012</div>
+        		</div>
+        		<div class="entry">
+        			Hi, this is the 3rd test.
+					<br />        			
+        		</div>
+        		<div class="labels">
+        			TestLabel_1, TestLabel_2
+        		</div>
+        		<div class="share">
+        		</div>
+        	</div>
+        	<!-- END POST-->
+        	
+			<!-- POST-->
+        	<div class="post">
+        		<div class="title">
+	        		<a href="showPost.php?postId=2" target="_blank">Post title TWO</a>
+        		</div>
+        		<div class="time">
+        			<div class="time-day">22</div>
+        			<div class="separator">-</div>
+        			<div class="time-month">10</div>
+        			<div class="separator">-</div>
+        			<div class="time-year">2012</div>
+        		</div>
+        		<div class="entry">
+        			Hi, this is the 2nd test.
+					<br />        			
+        		</div>
+        		<div class="labels">
+        			TestLabel_1, TestLabel_2
+        		</div>
+        		<div class="share">
+        		</div>
+        	</div>
+        	<!-- END POST-->
+        	
+        	<!-- POST-->
+        	<div class="post">
+        		<div class="title">
+	        		<a href="showPost.php?postId=1" target="_blank">Post title ONE</a>
+        		</div>
+        		<div class="time">
+        			<div class="time-day">21</div>
+        			<div class="separator">-</div>
+        			<div class="time-month">10</div>
+        			<div class="separator">-</div>
+        			<div class="time-year">2012</div>
+        		</div>
+        		<div class="entry">
+        			Hi, this is the 1st test.
 					<br />        			
         		</div>
         		<div class="labels">
