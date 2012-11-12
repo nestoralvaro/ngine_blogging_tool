@@ -102,3 +102,40 @@ For internet explorer
 	-o-transform: rotate(180deg);
 	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
 }
+
+/* Index styles */
+	.olderPosts {
+		font-weight:bold;
+	}
+	.oldPost {
+		padding:2px;
+	}
+	.oldTitle {
+		font-size: 120%;
+		text-transform:uppercase;
+		font-family: 'Swanky and Moo Moo', cursive;
+	}
+/* END of Index styles */
+
+
+/* Instagram styles */
+	#instagramPictures {
+		width:80%;
+		margin:auto;
+	}
+	.instaLogo, .instaPicture{
+		margin:5px;
+		text-align:center;
+	}
+	.instaLogo{
+		clear:bloth;
+	}
+	.instaPicture {
+		float:left;
+		width:20%;
+		margin:auto;
+	}
+	.instaImg {
+		width:70%;
+	}
+/* END of Instagram styles */

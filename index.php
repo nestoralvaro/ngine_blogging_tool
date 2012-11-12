@@ -40,20 +40,6 @@ foreach($allPosts as $article) {
 }
 $oldPosts .= "</div><!-- \olderPosts -->";
 ?>
-<style>
-	.olderPosts {
-		font-weight:bold;
-	}
-	.oldPost {
-		padding:2px;
-	}
-	.oldTitle {
-		font-size: 120%;
-		text-transform:uppercase;
-		font-family: 'Swanky and Moo Moo', cursive;
-	}
-</style>
-        
         
 <?php
 

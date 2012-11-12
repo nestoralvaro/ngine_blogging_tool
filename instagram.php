@@ -1,25 +1,4 @@
 
-<style>
-	#instagramPictures {
-		width:80%;
-		margin:auto;
-	}
-	.instaLogo, .instaPicture{
-		margin:5px;
-		text-align:center;
-	}
-	.instaLogo{
-		clear:bloth;
-	}
-	.instaPicture {
-		float:left;
-		width:20%;
-		margin:auto;
-	}
-	.instaImg {
-		width:70%;
-	}
-</style>
 <?php
 include_once("simplehtmldom_1_5/simple_html_dom.php");
 // Create DOM from URL
@@ -43,6 +22,7 @@ foreach($allPictures as $picture) {
 		// This adds a class to the picture
 		$mypic = $picture->find('img',0);
 		$mypic->class = 'instaImg';
+		$mypic->alt = 'instagram picture';
 		$image = trim($mypic);
 //		Originally it was like this (not adding a class):
 //		$image = trim($picture->find('img',0));
