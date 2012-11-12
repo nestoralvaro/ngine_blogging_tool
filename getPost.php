@@ -7,9 +7,9 @@ $html = file_get_html('all.php');
 $allPosts = $html->find('.post');
 $fullLength = sizeof($allPosts);
 $requestedPost = $_GET["postId"];
-// Find all posts
+// Loop through all posts
 foreach($allPosts as $article) {
-	// Just show the newest posts ("$postsToShow" number of posts)
+	// Just get "$requestedPost" post
 	if ($fullLength == $requestedPost) {
 		$title = trim($article->find('.title', 0)->plaintext);
 		$shareTitle = "[Japón] " . $title;
