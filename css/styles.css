@@ -1,0 +1,104 @@
+header {
+	font-family: 'Merienda One', cursive;
+	text-transform:uppercase;
+	font-size:200%;
+	margin:auto;
+	text-align:center;
+	padding-top:20px;
+}
+.post {
+	padding-top:30px;
+}
+.post, .entry {
+	clear:both;
+}
+.container, .post {
+    margin:auto;
+    width:90%;
+}
+.time div, .labels{
+    float:left;
+    font-family: 'Nothing You Could Do', cursive;
+}
+.title {
+	clear:both;
+    font-size: 200%;
+    text-transform:uppercase;
+	font-family: 'Swanky and Moo Moo', cursive;
+}
+.post {
+	text-align:center;
+}
+.post img{
+    height:300px;
+    margin:20px;
+    text-shadow: 5px 5px 15px black;
+	cursor: pointer;
+	cursor: hand;
+}
+.post img:hover{ 
+	height:310px;
+}
+@media screen and (max-width : 550px){
+    .post img, .post video {
+		max-width: 300px;
+		height: 300px;
+    }
+}
+@media screen and (max-width : 400px){
+    .post img, .post video {
+		max-width: 200px;
+		max-height: 200px;
+    }
+}
+.labels:before{ 
+	content:"Etiquetas de la entrada -> ";
+}
+footer {
+	clear:both;
+	text-align:center;
+	margin-top:40px;
+	margin-bottom:10px;
+}
+.share {
+	clear:both;
+	text-align:center;
+}
+img.shareImg {
+	width: 32px;
+	height: 32px;
+	margin:0px;
+}
+img.shareImg:hover{ 
+	height:35px;
+	height:35px;
+}
+
+/*
+For internet explorer
+0 -> Default. Content is not rotated.
+1 -> Content is rotated 90 degrees.
+2 -> Content is rotated 180 degrees.
+3 -> Content is rotated 270 degrees.
+*/
+/* Rotates 90 degrees clockwise */
+.rotate90cw {
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+}
+/* Rotates 90 degrees counter-clockwise */
+.rotate90ccw {
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+/* Rotates 180 degrees */
+.rotate180 {
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+}
