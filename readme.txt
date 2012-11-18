@@ -18,6 +18,13 @@ You can see a live example here: http://www.nestoralvaro.com/Projects/custom_blo
 ------------------------------------------------------------------------------------------------------------
 Here's the list of files:
 
+- getLabels.php
+	This file retrieves all labels from all posts, also counting how many times each label has been used.
+	Each label will have a link to "showLabel.php" where all posts containing the selected label are shown.
+
+- showLabel.php
+	Shows a page where all the posts containing the selected label are shown also, with a link to each one of them.
+	
 - top.php
 	Contains the basic information.
 	Css files are included here
