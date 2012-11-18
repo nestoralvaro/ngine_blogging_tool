@@ -23,7 +23,7 @@ Here's the list of files:
 	Each label will have a link to "showLabel.php" where all posts containing the selected label are shown.
 
 - showLabel.php
-	Shows a page where all the posts containing the selected label are shown also, with a link to each one of them.
+	Displays a page where all the posts containing the selected label are shown also, with a link to each one of them.
 	
 - top.php
 	Contains the basic information.
