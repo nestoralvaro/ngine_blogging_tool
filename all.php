@@ -44,7 +44,7 @@ include("top.php");
 					<br />        			
         		</div>
         		<div class="labels">
-        			TestLabel_1, TestLabel_2
+        			TestLabel_3
         		</div>
         		<div class="share">
         		</div>
@@ -84,7 +84,7 @@ include("top.php");
 					<br />        			
         		</div>
         		<div class="labels">
-        			TestLabel_1, TestLabel_2
+        			TestLabel_2
         		</div>
         		<div class="share">
         		</div>
@@ -108,7 +108,7 @@ include("top.php");
 					<br />        			
         		</div>
         		<div class="labels">
-        			TestLabel_1, TestLabel_2
+        			TestLabel_2
         		</div>
         		<div class="share">
         		</div>
@@ -132,7 +132,7 @@ include("top.php");
 					<br />        			
         		</div>
         		<div class="labels">
-        			TestLabel_1, TestLabel_2
+        			TestLabel_1
         		</div>
         		<div class="share">
         		</div>
@@ -156,7 +156,7 @@ include("top.php");
 					<br />        			
         		</div>
         		<div class="labels">
-        			TestLabel_1, TestLabel_2
+        			TestLabel_1
         		</div>
         		<div class="share">
         		</div>

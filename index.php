@@ -4,6 +4,15 @@ include("top.php");
 include_once("simplehtmldom_1_5/simple_html_dom.php");
 include("instagram.php");
 include("share.php");
+include("getLabels.php");
+
+// Right after instagram Photos show the labels
+echo "<div id='labelList'>";
+echo "<br />";
+echo "<p class='labelTitle'>Etiquetas de entradas anteriores:</p>";
+echo "<p style='margin-top:7px;'>" . showAllLabels() . "</p>";
+echo "</div>";
+
 // Create DOM from URL
 $html = file_get_html('all.php');
 

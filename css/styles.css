@@ -103,20 +103,35 @@ For internet explorer
 	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
 }
 
-/* Index styles */
+/* index styles */
 	.olderPosts {
 		font-weight:bold;
 	}
 	.oldPost {
 		padding:2px;
 	}
-	.oldTitle {
+	.oldTitle, .labelTitle {
 		font-size: 120%;
 		text-transform:uppercase;
 		font-family: 'Swanky and Moo Moo', cursive;
 	}
-/* END of Index styles */
+/* END index styles */
 
+/* Labels */
+.labelName {
+		font-size: 120%;
+		text-transform:uppercase;
+		font-weight:bold;
+		font-family: 'Swanky and Moo Moo', cursive;
+	}
+#labelList {
+	width:70%;
+	margin:auto;
+	text-align:center;
+	float:none;
+	clear:both;
+}
+/* END Labels*/
 
 /* Instagram styles */
 	#instagramPictures {
@@ -138,4 +153,4 @@ For internet explorer
 	.instaImg {
 		width:70%;
 	}
-/* END of Instagram styles */
+/* END Instagram styles */
